@@ -50,6 +50,7 @@ int main(int argc, const char * argv[]) {
         CGImageRef output_image = CGBitmapContextCreateImage(context);
         
         //画像保存
+        //ああああああ
         NSString* path = [NSHomeDirectory() stringByAppendingPathComponent:@"Desktop/hoge.png"];
         
         NSBitmapImageRep* rep2 = [[NSBitmapImageRep alloc] initWithCGImage:output_image];
